@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# YOLO weights
+*.pt
+
+
+# Media
+*.mp4
+*.jpg
+*.png
+
+# Logs
+*.log
