@@ -1,7 +1,8 @@
 fastapi
-uvicorn
+uvicorn[standard]
 opencv-python
 numpy
 paho-mqtt
 pydantic
 ultralytics
+python-dotenv
