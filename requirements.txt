@@ -1,7 +1,18 @@
-fastapi
-uvicorn
-opencv-python
-numpy
-paho-mqtt
-pydantic
-ultralytics
+# Watt-Watch dependencies
+# Install with: pip install -r requirements.txt
+
+# Web framework + ASGI server
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9   # needed by FastAPI for form / file uploads
+
+# Computer vision
+opencv-python>=4.9.0
+numpy>=1.26.0
+ultralytics>=8.1.0        # YOLOv8 – provides yolov8m.pt and inference API
+
+# MQTT (ESP32 communication)
+paho-mqtt>=1.6.1
+
+# Data validation
+pydantic>=2.0.0
